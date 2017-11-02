@@ -71,6 +71,9 @@ struct __priv_data {
  * What an astobj2 object looks like: fixed-size private data
  * followed by variable-size user data.
  */
+/**
+ * asterisk对象模型的第二版
+ */
 struct astobj2 {
 	struct __priv_data priv_data;
 	void *user_data[0];
