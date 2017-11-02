@@ -16,7 +16,9 @@
  * the GNU General Public License Version 2. See the LICENSE file
  * at the top of the source tree.
  */
-
+/**
+ * 链表的处理
+ */
 #ifndef ASTERISK_LINKEDLISTS_H
 #define ASTERISK_LINKEDLISTS_H
 

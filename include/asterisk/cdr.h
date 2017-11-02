@@ -22,7 +22,9 @@
  *
  * \author Mark Spencer <markster@digium.com>
  */
-
+/**
+ * CDR´¦ÀíÆ÷
+ */
 #ifndef _ASTERISK_CDR_H
 #define _ASTERISK_CDR_H
 

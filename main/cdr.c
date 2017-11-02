@@ -4458,6 +4458,9 @@ static int cdr_toggle_runtime_options(void)
 	return mod_cfg ? 0 : -1;
 }
 
+/**
+ * cdr“˝«Ê≥ı ºªØ
+ */
 int ast_cdr_engine_init(void)
 {
 	if (process_config(0)) {

@@ -21,7 +21,9 @@
  * Should be included by clients of the file handling routines.
  * File service providers should instead include mod_format.h
  */
-
+/**
+ * 文件格式处理器，提供音频、视频或图像文件的处理能力
+ */
 #ifndef _ASTERISK_FILE_H
 #define _ASTERISK_FILE_H
 

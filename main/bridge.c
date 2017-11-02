@@ -5582,6 +5582,9 @@ static void bridge_cleanup(void)
 	bridge_manager = NULL;
 }
 
+/**
+ * 
+ */
 int ast_bridging_init(void)
 {
 	ast_register_cleanup(bridge_cleanup);

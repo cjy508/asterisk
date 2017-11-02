@@ -26,7 +26,9 @@
 /*** MODULEINFO
 	<support_level>core</support_level>
  ***/
-
+/**
+ * 最大堆的实现
+ */
 #include "asterisk.h"
 
 #include "asterisk/heap.h"

@@ -3210,6 +3210,9 @@ static void rtp_engine_shutdown(void)
 	ast_rwlock_unlock(&mime_types_lock);
 }
 
+/**
+ * 
+ */
 int ast_rtp_engine_init(void)
 {
 	ast_rwlock_init(&mime_types_lock);

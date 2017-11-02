@@ -281,6 +281,9 @@ static void timing_shutdown(void)
 	timing_interfaces = NULL;
 }
 
+/**
+ * asterisk内核的定时器初始化
+ */
 int ast_timing_init(void)
 {
 	if (!(timing_interfaces = ast_heap_create(2, timing_holder_cmp, 0))) {

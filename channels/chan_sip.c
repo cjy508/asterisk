@@ -9895,6 +9895,9 @@ static void lws2sws(struct ast_str *data)
 /*! \brief Parse a SIP message
 	\note this function is used both on incoming and outgoing packets
 */
+/**
+ * 解析sip格式
+ */
 static int parse_request(struct sip_request *req)
 {
 	char *c = ast_str_buffer(req->data);
@@ -29809,6 +29812,9 @@ static int check_rtp_timeout(struct sip_pvt *dialog, time_t t)
 \note	This thread monitors all the SIP sessions and peers that needs notification of mwi
 	(and thus do not have a separate thread) indefinitely
 */
+/**
+ * 监控线程
+ */
 static void *do_monitor(void *data)
 {
 	int res;

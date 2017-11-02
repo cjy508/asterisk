@@ -20,7 +20,9 @@
  * \brief Support for translation of data formats.
  * \ref translate.c
  */
-
+/**
+ * 编码解释器，提供两种编码间的转换能力，是否音频视频编码转换都有?????
+ */
 #ifndef _ASTERISK_TRANSLATE_H
 #define _ASTERISK_TRANSLATE_H
 

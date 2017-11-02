@@ -1712,6 +1712,9 @@ static int lid_cmp(void *obj, void *arg, int flags)
 	return CMP_MATCH;
 }
 
+/**
+ * celÒıÇæ³õÊ¼»¯
+ */
 int ast_cel_engine_init(void)
 {
 	struct ao2_container *container;

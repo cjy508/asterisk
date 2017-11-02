@@ -1530,6 +1530,9 @@ static void translate_shutdown(void)
 	ast_rwlock_destroy(&tablelock);
 }
 
+/**
+ * 编码解释器接口的初始化
+ */
 int ast_translate_init(void)
 {
 	int res = 0;

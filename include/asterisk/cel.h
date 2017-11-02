@@ -25,7 +25,9 @@
  *       CONF_ENTER, CONF_EXIT, CONF_START, CONF_END, 3WAY_START, 3WAY_END,
  *       TRANSFER, and HOOKFLASH.
  */
-
+/**
+ *  CEL´¦ÀíÆ÷
+ */
 #ifndef __AST_CEL_H__
 #define __AST_CEL_H__
 

@@ -4636,6 +4636,9 @@ static void destroy_exten(struct ast_exten *e)
 	ast_free(e);
 }
 
+/**
+ * 通道线程
+ */
 static void *pbx_thread(void *data)
 {
 	/* Oh joyeous kernel, we're a new thread, with nothing to do but
@@ -8897,6 +8900,9 @@ static void print_statecbs_key(void *v_obj, void *where, ao2_prnt_fn *prnt)
 	prnt(where, "%d", state_cb->id);
 }
 
+/**
+ * 
+ */
 int ast_pbx_init(void)
 {
 	hints = ao2_container_alloc(HASH_EXTENHINT_SIZE, hint_hash, hint_cmp);

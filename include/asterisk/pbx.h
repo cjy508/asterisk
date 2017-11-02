@@ -19,7 +19,9 @@
 /*! \file
  * \brief Core PBX routines and definitions.
  */
-
+/**
+ * Asterisk内核注册APP相关的API
+ */
 #ifndef _ASTERISK_PBX_H
 #define _ASTERISK_PBX_H
 

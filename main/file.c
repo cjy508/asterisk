@@ -1931,6 +1931,9 @@ static void file_shutdown(void)
 	STASIS_MESSAGE_TYPE_CLEANUP(ast_format_unregister_type);
 }
 
+/**
+ * 文件格式处理器接口的初始化
+ */
 int ast_file_init(void)
 {
 	STASIS_MESSAGE_TYPE_INIT(ast_format_register_type);

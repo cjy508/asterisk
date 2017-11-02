@@ -263,6 +263,9 @@ static void codec_shutdown(void)
 	codecs = NULL;
 }
 
+/**
+ * 
+ */
 int ast_codec_init(void)
 {
 	codecs = ao2_container_alloc_options(AO2_ALLOC_OPT_LOCK_RWLOCK, CODEC_BUCKETS, codec_hash, codec_cmp);
